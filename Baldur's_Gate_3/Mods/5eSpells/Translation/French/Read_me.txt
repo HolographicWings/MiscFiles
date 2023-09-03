@@ -8,4 +8,5 @@ To use :
 - Restart the game.
 
 To correct, edit "5eSpells.xml" and pull request.
+English XML and loca files are in parent parent then "English" folder.
 I'll recompile the ".loca" as soon as possible.
