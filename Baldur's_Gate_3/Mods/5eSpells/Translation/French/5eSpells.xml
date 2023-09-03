@@ -6,7 +6,8 @@
 	<content contentuid="3ba4adc0c0324e88b0738219e34be431" version="1">Augmentez la vitesse de déplacement de neuf créatures de &lt;LSTag Tooltip="VitesseDeDéplacement"&gt;[1]&lt;/LSTag&gt;.</content>
 	<content contentuid="h31b243f6g8e59g49d0gbba8gb4dc25dfde2c" version="1">Lancez un éclat de glace qui inflige [1]. Il explose et inflige [2] à quiconque à proximité.</content>
 	<content contentuid="7fe40b6631064671aec6f93f1e5207c7" version="1">Conjurez dix baies magiques dans votre inventaire ou celui d'un compagnon. Les créatures qui mangent une baie récupèrent [1]. Les baies disparaissent après un Repos Long.</content>
-	<content contentuid="hcd0ce8fcg1ba9g43e0g977fg81ed262e3f53" version="1">L'entité affectée ne peut pas être ciblée par des attaques ou des sorts ennemis. Cependant, elle peut toujours subir des dégâts provenant de sorts qui affectent une zone plus large. La condition prend fin si l'entité affectée attaque ou nuit à une autre créature.</content>
+	<content contentuid="h1f3c8c53g041ag4602g8481g99c06a5893c4" version="1">Sanctuaire défavorable</content>
+	<content contentuid="hcd0ce8fcg1ba9g43e0g977fg81ed262e3f53" version="2">L'entité affectée ne peut pas être ciblée par les attaques ou les sorts ennemis lorsqu'elle échoue son jet de sauvegarde contre Sanctuaire. Cependant, elle peut toujours subir des dégâts de sorts qui affectent une zone plus large. La condition prend fin si l'entité affectée attaque ou inflige des dégâts à une autre créature.</content>
 	<content contentuid="h45dc0873gf5d3g4623ga4cagf3268cbfb6c1" version="1">Ne peut pas nuire à une créature protégée par Sanctuaire.</content>
 	<content contentuid="f807b333f5e94104bd79e3252275de44" version="1">Terrain Difficile : Graisse</content>
 	<content contentuid="b9fde1872d3e490a8df08deccffbdb67" version="1">Terrain Difficile : Égout</content>
@@ -112,7 +113,7 @@
 	<content contentuid="9018737a-64c4-480d-993e-6e7f1effc4e9" version="1">Cérémonie</content>
 	<content contentuid="b7fd9240-3f07-4bca-abc9-45aa63fe3b35" version="1">Effectuez l'une des différentes cérémonies religieuses : Bénédiction de l'Eau, Passage à l'Âge Adulte ou Dédicace.</content>
 	<content contentuid="3ca5034a-a722-4d96-a134-0553c0411d12" version="1">Cérémonie : Bénédiction de l'Eau</content>
-	<content contentuid="da07c851-92a9-41f9-b750-4f8aa7e21a39" version="1">Touchez un récipient d'eau, le transformant en &lt;LSTag Type="Status" Tooltip="BLESS_WATER"&gt;Eau Bénite&lt;/LSTag&gt;.</content>
+	<content contentuid="da07c851-92a9-41f9-b750-4f8aa7e21a39" version="2">Touchez un récipient d'eau dans l'inventaire d'une créature, le transformant pour devenir de l'&lt;LSTag Type="Status" Tooltip="BLESS_WATER"&gt;Eau Bénite&lt;/LSTag&gt;.</content>
 	<content contentuid="49ed8ca2-0c96-40c2-84f4-423d057cf0db" version="1">Cérémonie : Passage à l'Âge Adulte</content>
 	<content contentuid="deffb722-37d8-4599-b829-d000b1684677" version="1">Touchez une créature, lui accordant un bonus de +[1] aux &lt;LSTag Tooltip="JetCapacité"&gt;Jets de Capacité&lt;/LSTag&gt;.</content>
 	<content contentuid="5dfb4398-fe17-4bdf-ae03-770adcd46dc7" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Une créature ayant effectué cette cérémonie ne pourra plus jamais bénéficier de la même cérémonie.</content>
@@ -127,8 +128,8 @@
 	<content contentuid="d949371a-01d6-4cca-be33-5751cea2bb16" version="1">Secousse sismique</content>
 	<content contentuid="be4d062f-2976-4ebb-8368-b40c232078fe" version="1">Causez une secousse dans le sol qui devient &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Terrain Difficile&lt;/LSTag&gt; et affecte les créatures à proximité, les faisant peut-être tomber &lt;LSTag Type="Status" Tooltip="PRONE"&gt;À Terre&lt;/LSTag&gt;.</content>
 	<content contentuid="456da9d0c56c4266a47687dec478954f" version="1">Éclair de chaos</content>
-	<content contentuid="0dc63a07001746c48f300fe981bb1e3d" version="1">Lancez une masse d'énergie chaotique qui inflige un type de dégât aléatoire parmi acide, froid, feu, force, foudre, poison, psychique et tonnerre.</content>
-	<content contentuid="3b196c615b9e4605b21133edec9f9359" version="1">Lancez un d8 après avoir lancé ce sort et gagnez la capacité de le lancer sur une cible supplémentaire située dans un rayon de [1] de la cible initiale en cas d'obtention de 1.</content>
+	<content contentuid="0dc63a07001746c48f300fe981bb1e3d" version="2">Lancez une masse d'énergie chaotique qui inflige [1], [2], [3], [4], [5], [6], [7] ou [8] dégâts.</content>
+	<content contentuid="3b196c615b9e4605b21133edec9f9359" version="2">Après avoir lancé ce sort, lancez un d8. Sur un résultat de 1, vous ciblez automatiquement une créature supplémentaire située à [1] de la cible originale avec une autre masse d'énergie chaotique.</content>
 	<content contentuid="a0d05efee7474c13815aae23ed24b192" version="1">Éclair de chaos : Supplémentaire</content>
 	<content contentuid="651cf6fbd122465fab868065dbbf2d2d" version="1">Ciblé par Éclair de chaos et ne peut plus être ciblé par ce sort.</content>
 	<content contentuid="1ca004cebd0745a9bc876f7d7145bfa3" version="1">Détecter le Mal et le Bien</content>
@@ -390,6 +391,7 @@
 	<content contentuid="febba116-165c-4e18-bba3-161150ab76ca" version="1">Les effets magiques produits dans le cube peuvent rendre les créatures &lt;LSTag Type="Status" Tooltip="CHARMED"&gt;Charmées&lt;/LSTag&gt; par vous, les &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Aveugler&lt;/LSTag&gt;, les rendre Incapables et incapables de bouger, ou transformer la zone en Terrain Difficile.</content>
 	<content contentuid="f57092a8-a2f7-4c42-b586-400825440423" version="1">Espièglerie de Nathair : Déplacement</content>
 	<content contentuid="069b2728-9089-4cf5-b541-dba69c0bddac" version="1">Déplacez le cube de magie féerique et draconique jusqu'à [1].</content>
+	<content contentuid="8a91bc343b23491b880ab0a2f0bc3ba3" version="1">Sujet à un effet magique aléatoire par tour.</content>
 	<content contentuid="62101b63-bc40-4545-8309-e899767d5785" version="1">Entraves de givre</content>
 	<content contentuid="340ffd19-0677-4c03-9047-b69147a22364" version="1">Une rafale d'énergie froide émane de vous, gênant les créatures avec des formations de glace qui réduisent leur &lt;LSTag Tooltip="MovementSpeed"&gt;Vitesse de Déplacement&lt;/LSTag&gt; à [1].</content>
 	<content contentuid="d4f5eff79bc347868c89acfdacbc4f12" version="1">Brisez la glace qui gêne une créature.</content>
@@ -599,6 +601,7 @@
 	<content contentuid="c29eaebf-efd0-46c1-812c-4f2487a02d6c" version="1">Lien Télépathique de Rary</content>
 	<content contentuid="80fa537e-982f-4883-9953-1e556cf09550" version="1">Forgez un lien télépathique entre jusqu'à huit créatures ayant un score d'Intelligence supérieur à 2, les reliant psychiquement les unes aux autres.</content>
 	<content contentuid="64dc4f73-5d8c-45f3-ad0d-f50d4144306b" version="1">Pendant la liaison, les créatures ont l'Avantage sur les Jets d'Attaque et les Jets de Sauvegarde qui les cibleraient mutuellement.</content>
+	<content contentuid="92f20db33ff34993ac54ec0808802984" version="1">Lié au lanceur de sorts et à d'autres créatures. Lorsqu'ils sont liés, les créatures alliées ont l'Avantage aux Jets d'Attaque et aux Jets de Sauvegarde contre les attaques et les sorts qui les incluraient en tant que cibles.</content>
 	<content contentuid="7814f0a4-8073-4930-99bc-b94e799759b2" version="1">Amélioration de compétences</content>
 	<content contentuid="d468b025-c31d-46df-9191-9e5e80ff47a6" version="1">Approfondissez la compréhension d'une créature de son propre talent, en lui accordant une expertise dans une compétence, lui permettant d'ajouter deux fois son bonus de compétence à &lt;LSTag Tooltip="AbilityCheck"&gt;Jets de Caractéristiques&lt;/LSTag&gt; utilisant la compétence.</content>
 	<content contentuid="c758d016-dc05-45cd-8cbd-c3b273593032" version="1">La cible doit être compétente dans la compétence choisie et ne peut pas déjà bénéficier d'un effet doublant son &lt;LSTag Tooltip="ProficiencyBonus"&gt;Bonus de Compétence&lt;/LSTag&gt;.</content>
@@ -684,4 +687,6 @@
 	<content contentuid="5ff072be-47dd-46c0-8579-feff70e3c730" version="1">Faites disparaître une créature vers un autre point dans le temps lorsqu'elle tente de faire une attaque ou de lancer un sort.</content>
 	<content contentuid="e00875d2-f42e-4fc8-808a-57babc63623c" version="1">La créature réapparaît à l'endroit où elle se trouvait au début de son prochain tour.</content>
 	<content contentuid="2d8985fcc3d94bd8a2bbe44ddf4e326b" version="1">Faites disparaître une créature lorsqu'elle lance un sort ou fait une attaque, annulant l'action avant qu'elle ait le moindre effet.</content>
+	<content contentuid="87abbc875a36408a8005093e0164df17" version="1">Faire disparaître une créature, en plus d'une/d'autres créature(s), lorsqu'elle lance un sort ou effectue une attaque, faisant échouer l'action avant qu'elle n'ait aucun effet.</content>
+	<content contentuid="cf78d0c6838b4935be99a8e694a9b7f3" version="1">Disparu à un autre moment dans le temps.</content>
 </contentList>
