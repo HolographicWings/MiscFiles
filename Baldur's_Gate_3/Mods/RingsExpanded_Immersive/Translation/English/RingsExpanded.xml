@@ -52,4 +52,13 @@
   
   <content contentuid="h39db2303gb4b0g4251gb542g3a54a7095b71" version="1">Ring of Superior Charisma</content>
   <content contentuid="ha7315111g29d1g4a98gbd1ag604f6451bca2" version="1">This ring grants a superior increase in charisma to the wearer.</content>
+  
+  <content contentuid="h570b84d9g35c8g43cbg92dbg2770d955c2d5" version="1">Ring of Minor Luck</content>
+  <content contentuid="hab8f8e22g4a3ag42efg94cdgcadc4837d700" version="1">Once per day, you can use a &lt;LSTag Type="ActionResource" Tooltip="LuckPoint"&gt;Luck Point&lt;/LSTag&gt; to gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on your next &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; or &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;, or to make an enemy reroll their Attack Roll.</content>
+  
+  <content contentuid="h2afbb74dg91beg4aa8gbccag5b2f3564c651" version="1">Ring of Greater Luck</content>
+  <content contentuid="h8391fedfgaad0g48bdg9537gde9c500af2c3" version="1">Twice per day, you can use a &lt;LSTag Type="ActionResource" Tooltip="LuckPoint"&gt;Luck Point&lt;/LSTag&gt; to gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on your next &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; or &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;, or to make an enemy reroll their Attack Roll.</content>
+  
+  <content contentuid="hc276330egca37g4303gaa70gf1d893f8292a" version="1">Ring of Superior Luck</content>
+  <content contentuid="h5be1173bg40aeg4fa9g8b3agb25ea2cad822" version="1">Thrice per day, you can use a &lt;LSTag Type="ActionResource" Tooltip="LuckPoint"&gt;Luck Point&lt;/LSTag&gt; to gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on your next &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; or &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;, or to make an enemy reroll their Attack Roll.</content>
 </contentList>
